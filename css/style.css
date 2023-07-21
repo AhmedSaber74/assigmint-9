@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+ background-color: #F7ECDE;
+}
+ .all h1 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+  isolation: isolate;
+}
+
+.all h1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  transition: height 350ms;
+  z-index: -1;
+}
+
+.bookmark-div h2{
+font-family: "Righteous", cursive;
+font-size: 25px;
+background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.border-button
+{
+  border: 5px 0px solid saddlebrown;
+}
+
+
+.swall
+{
+  background-color: #fec260;
+}
