@@ -1,4 +1,4 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 
@@ -40,4 +40,57 @@ background-image: linear-gradient(to right, #3ca55c, #b5ac49);
 .swall
 {
   background-color: #fec260;
+} */
+/* 
+img{
+  width: 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+} */
+
+
+/* 
+.mainDiv{
+
+  width: 50%;
+  height: 400px;
+  margin: auto;
+  background-image: url(../img/IMG_٢٠٢٣٠٥١٠_٠١٥٠٤٩.jpg);
+  background-repeat: no-repeat;
+  background-size: 100;
+
+} */
+
+body
+{
+    font-family: "segoe ui light";
+}
+
+.item-caption
+{
+    bottom: 15%;
+    width: 80%;
+    left: 10%;
+}
+
+img
+{
+    cursor: pointer;
+}
+
+.layerParent
+{
+    z-index: 99999999;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.layerContent
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/WhatsApp\ Image\ 2023-07-22\ at\ 15.20.331.jpg   );
+    background-size:100% 100%
 }
